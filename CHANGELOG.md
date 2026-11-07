@@ -2,6 +2,23 @@
 
 Las versiones y sus APK están en [Releases](https://github.com/AndresMesino/UniversalVRScreen-Releases/releases).
 
+## 1.3.0
+
+### Novedades
+
+- Punto rojo en el engranaje y en Acerca de cuando hay una actualización pendiente; desaparece al instalarla.
+- La batería se muestra en la esquina superior derecha de la imagen, separada de los controles.
+- Los controles del visor son casi transparentes y van más abajo; se aclaran al mirarlos o al tocar la pantalla.
+
+### Mejoras
+
+- La app verifica que cada actualización esté firmada con el certificado oficial (huella incorporada) antes de instalarla.
+- Acerca de reúne información y actualizaciones en un solo acceso; Configuración sin apartados vacíos.
+
+### Correcciones
+
+- Cambiar de escenario dentro del visor ya no reemplaza el escenario predeterminado elegido fuera del visor.
+
 ## 1.2.0
 
 Primera versión pública.

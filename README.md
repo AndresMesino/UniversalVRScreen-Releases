@@ -2,6 +2,8 @@
 
 **Canal oficial de distribución.** Aquí se publican las versiones de Universal VR Screen para Android: el APK de cada versión, sus novedades y la información para verificar que es auténtico.
 
+Desarrollador: **Andrés Mesino**.
+
 Universal VR Screen convierte tu teléfono en una pantalla para gafas VR tipo Cardboard o VR Box: muestra cualquier app instalada (videos, navegador, juegos sencillos) duplicada para cada ojo en formato Side-by-Side, con corrección de lente, pantalla fija en el espacio y escenarios como un cine o el espacio.
 
 ## Descargar
@@ -25,7 +27,7 @@ Antes de instalar, la app verifica la descarga: que sea de Universal VR Screen, 
 
 ## Verificar la autenticidad
 
-Cada APK oficial está firmado con este certificado (huella SHA-256):
+Cada APK oficial está firmado con el certificado de **Andrés Mesino** (CN=Universal VR Screen), cuya huella SHA-256 es:
 
 ```text
 B4:71:47:78:94:8B:AA:B5:CA:E7:29:9C:0D:F7:75:48:F7:99:6E:F9:05:8A:66:51:D6:1B:C1:FF:5A:F3:B5:CF
@@ -37,7 +39,7 @@ Con las herramientas de Android (`apksigner`) puedes comprobarlo:
 apksigner verify --print-certs UniversalVRScreen-<versión>.apk
 ```
 
-Cada versión incluye también `SHA256SUMS` con la huella del archivo. Ver [SECURITY.md](SECURITY.md).
+La app trae esta huella incorporada: antes de instalar una actualización compara el certificado del APK descargado con ella y, si no coincide, cancela la instalación y borra el archivo. Cada versión incluye también `SHA256SUMS` con la huella del archivo (integridad); la autenticidad la da la firma. Ver [SECURITY.md](SECURITY.md).
 
 ## Requisitos
 
@@ -57,4 +59,4 @@ Este repositorio contiene únicamente versiones publicadas y su documentación; 
 
 Historial de cambios: [CHANGELOG.md](CHANGELOG.md).
 
-© AndresMesino. Todos los derechos reservados.
+© Andrés Mesino. Todos los derechos reservados.
